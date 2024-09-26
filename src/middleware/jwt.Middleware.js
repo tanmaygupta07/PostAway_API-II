@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import { ApplicationError } from '../errorHandler/applicationError.js';
+import { ApplicationError } from '../error-handler/applicationError.js';
 
 //middleware to authenticate the user by verifying the token
 const jwtAuth = (req, res, next) => {
