@@ -12,6 +12,7 @@ PostAway is a powerful and flexible API designed for managing posts, comments, l
 2. [Installation](#installation)
 3. [Authentication](#authentication)
 4. [API Endpoints](#api-endpoints)
+    - [User Routes](#user-routes)
     - [Post Routes](#post-routes)
     - [Comment Routes](#comment-routes)
     - [Like Routes](#like-routes)
