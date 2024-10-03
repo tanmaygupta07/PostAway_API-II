@@ -4,8 +4,6 @@
 PostAway is a powerful and flexible API designed for managing posts, comments, likes, friendships, and OTP-based password resets. The API supports authentication and various user interactions, making it ideal for social or blogging platforms.
 
 
----
-
 ## Table of Contents
 
 1. [Features](#features)
@@ -20,7 +18,6 @@ PostAway is a powerful and flexible API designed for managing posts, comments, l
 5. [Project Structure](#project-structure)
 6. [Environment Variables](#environment-variables)
 
----
 
 ## Features
 
@@ -30,7 +27,6 @@ PostAway is a powerful and flexible API designed for managing posts, comments, l
 - Friendship Management
 - OTP-based Password Reset (with Nodemailer)
 
----
 
 ## Installation
 
@@ -54,13 +50,11 @@ To set up the project locally:
    npm start
    ```
 
----
 
 ## Authentication
 
 The API supports user authentication through JWT tokens. To authenticate, users must log in with their credentials to receive a token that can be used for accessing protected routes.
 
----
 
 ## API Endpoints
 
@@ -109,7 +103,6 @@ The API supports user authentication through JWT tokens. To authenticate, users 
 - `POST /api/otp/verify`: Verify an OTP.
 - `POST /api/otp/reset-password`: Reset a user's password after OTP verification.
 
----
 
 ## Project Structure
 
@@ -170,7 +163,6 @@ Here's an overview of the project structure:
 └── server.js
 ```
 
----
 
 ## Environment Variables
 
@@ -187,7 +179,3 @@ USER_PASS=your_email_password_or_app_password
 - **JWT_SECRET**: The secret key used for generating JWT tokens.
 - **USER_EMAIL**: The email address used for sending OTPs (through Nodemailer).
 - **USER_PASS**: The password or app-specific password for the email account.
-
----
-
-
