@@ -10,16 +10,15 @@ PostAway is a powerful and flexible API designed for managing posts, comments, l
 
 1. [Features](#features)
 2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Authentication](#authentication)
-5. [API Endpoints](#api-endpoints)
+3. [Authentication](#authentication)
+4. [API Endpoints](#api-endpoints)
     - [Post Routes](#post-routes)
     - [Comment Routes](#comment-routes)
     - [Like Routes](#like-routes)
     - [Friendship Routes](#friendship-routes)
     - [OTP Password Reset Routes](#otp-password-reset-routes)
-6. [Project Structure](#project-structure)
-7. [Environment Variables](#environment-variables)
+5. [Project Structure](#project-structure)
+6. [Environment Variables](#environment-variables)
 
 ---
 
@@ -54,12 +53,6 @@ To set up the project locally:
    ```bash
    npm start
    ```
-
----
-
-## Usage
-
-Once the server is running, you can make requests to the API using tools like [Postman](https://www.postman.com/) or [cURL](https://curl.se/).
 
 ---
 
