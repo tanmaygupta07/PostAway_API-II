@@ -4,6 +4,8 @@
 PostAway is a powerful and flexible API designed for managing posts, comments, likes, friendships, and OTP-based password resets. The API supports authentication and various user interactions, making it ideal for social or blogging platforms.
 
 
+
+
 ## Table of Contents
 
 1. [Features](#features)
